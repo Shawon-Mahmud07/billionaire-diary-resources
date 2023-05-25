@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-effect {
+  @apply hover:bg-slate-300 active:bg-slate-300 focus:outline-none focus:ring-1 focus:ring-sky-100 focus:brightness-125 hover:-translate-x-2;
+}

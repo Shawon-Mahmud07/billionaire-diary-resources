@@ -1,0 +1,22 @@
+{
+  "name": "billionaire-diary-resources",
+  "version": "1.0.0",
+  "description": "",
+  "main": "billionaire.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss -i main.css -o ./dist/style.css",
+    "watch": "tailwindcss -i main.css -o ./dist/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "daisyui": "^2.51.6"
+  }
+}
