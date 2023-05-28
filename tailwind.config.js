@@ -5,6 +5,7 @@ module.exports = {
     extend: {},
     fontFamily: {
       inter: ["Inter"],
+      inknut: ["Inknut Antiqua"],
     },
   },
   plugins: [require("daisyui")],
